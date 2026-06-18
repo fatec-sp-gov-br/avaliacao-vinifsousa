@@ -2,15 +2,19 @@ package br.edu.poo;
 
 public class Pocao {
 
-    public Pocao(String nome, int cura) {
+    private String nome;
+    private int cura;
 
+    public Pocao(String nome, int cura) {
+        this.nome = nome;
+        this.cura = cura;
     }
 
     public String getNome() {
-        return null;
+        return this.nome;
     }
 
     public int getCura() {
-        return 0;
+        return this.cura;
     }
 }
